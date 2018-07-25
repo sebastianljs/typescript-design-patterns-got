@@ -1,0 +1,14 @@
+{
+  "include": ["./**/*"],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": true,
+    "paths": {
+      "@people/*": ["patterns/creational/people/*"]
+    }
+  },
+  "compileOnSave": true
+}
